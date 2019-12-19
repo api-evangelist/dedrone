@@ -1,0 +1,54 @@
+{
+    "name": "Dedrone",
+    "description": "<p>DroneTracker is a multi-sensor system for the detection of modern civilian drones. The intelligent merging of different sensor systems makes it possible to reliably detect drones within a radius of 1km, to reliably identify and trigger an alarm. The advanced technology of the Drone Trackers allows the detection of civilian drones during the day and night and is completely independent of the noise emission. The area to be monitored can be extended by an interaction of several Drone Tracker. Its rugged design protects the Drone Tracker from environmental influences and thus ensures maintenance-free use over a long period of time.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/dedrone-logo-02@2x.png",
+    "tags": [
+        "api not found",
+        "drone tech",
+        "drones",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/dedrone\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Dedrone",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/dedrone-logo-02@2x.png",
+            "humanURL": "http:\/\/www.dedrone.com\/en\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/dedrone-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.dedrone.com\/en\/newsroom\/overview-drone-news"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/www.dedrone.com\/share\/dedrone-news-en.xml"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Dedrone"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/DroneTracker"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.dedrone.com\/en\/"
+        }
+    ]
+}
