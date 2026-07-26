@@ -1,8 +1,25 @@
 aid: dedrone
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dedrone.png
 name: Dedrone
-description: Dedrone is a company surfaced as a portfolio company of felicis, menlo-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Dedrone is a counter-drone (counter-UAS) airspace security company that
+  detects, tracks, identifies, and helps mitigate unauthorized drones and unmanned
+  aerial systems. Its AI-powered sensor platform combines RF detection, radar, cameras,
+  and mitigation technologies to protect airports, critical infrastructure, correctional
+  facilities, stadiums, and government and military sites. Dedrone was acquired by
+  Axon and operates as its counter-drone / airspace-security line. Surfaced through
+  the API Evangelist network as a portfolio company of Felicis and Menlo Ventures;
+  no public developer API, portal, or specification was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/dedrone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Counter-Drone
+- Counter-UAS
+- Airspace Security
+- Drone Detection
+- Physical Security
+- Defense
+- Critical Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dedrone-domain-security.yml
 - type: Website
   url: https://dedrone.com
+- type: Blog
+  url: https://www.dedrone.com/blog
+- type: Support
+  url: https://www.axon.com/contact/dedrone
+- type: PrivacyPolicy
+  url: https://www.dedrone.com/legal/overview#privacy
+- type: TermsOfService
+  url: https://www.dedrone.com/legal/overview#legal
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
