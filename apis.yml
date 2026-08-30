@@ -58,6 +58,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/axon/
+  name: Axon
+  x-relationship: acquired
+  x-evidence: "Dedrone was acquired by Axon and operates as its counter-drone / airspace-security line."
 - type: DomainSecurity
   url: security/dedrone-domain-security.yml
 - type: Website
